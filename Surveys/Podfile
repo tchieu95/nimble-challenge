@@ -6,6 +6,7 @@ target 'Surveys' do
   use_frameworks!
 
   # Pods for Surveys
+  pod 'SwiftLint'
 
   target 'SurveysTests' do
     inherit! :search_paths
