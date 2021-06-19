@@ -177,6 +177,7 @@
 				29192845267E4EC200189515 /* Sources */,
 				29192846267E4EC200189515 /* Frameworks */,
 				29192847267E4EC200189515 /* Resources */,
+				1B03F12A53CCEEF50FE57D5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,6 +215,7 @@
 				29192866267E4EC500189515 /* Sources */,
 				29192867267E4EC500189515 /* Frameworks */,
 				29192868267E4EC500189515 /* Resources */,
+				1AA45EB34A9927F9E22E4237 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,6 +297,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1AA45EB34A9927F9E22E4237 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Surveys-SurveysUITests/Pods-Surveys-SurveysUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Surveys-SurveysUITests/Pods-Surveys-SurveysUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Surveys-SurveysUITests/Pods-Surveys-SurveysUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B03F12A53CCEEF50FE57D5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Surveys/Pods-Surveys-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Surveys/Pods-Surveys-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Surveys/Pods-Surveys-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		564744E2850113819BBDB0EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

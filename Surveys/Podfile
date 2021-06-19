@@ -7,6 +7,13 @@ target 'Surveys' do
 
   # Pods for Surveys
   pod 'SwiftLint'
+  pod 'Alamofire', '~> 5.4'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'KeychainAccess', '~> 4.2'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxSwiftExt/Core'
+  pod 'RxDataSources', '~> 4.0.1'
 
   target 'SurveysTests' do
     inherit! :search_paths
